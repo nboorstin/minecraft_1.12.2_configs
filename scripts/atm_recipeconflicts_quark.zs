@@ -101,7 +101,7 @@ print(" ============================================================== ");
 		if(itemKind == "bark") { var outQty = 9; }
 
 		//remove recipe first
-		recipes.remove(itemOutput);
+		recipes.removeShapeless(itemOutput);
 
 		//add conversion recipe
 		recipes.addShapeless(itemOutput * outQty, [
